@@ -548,3 +548,13 @@ Knowledge and Planning
    2. Hale: surprisal  
    3. Constant info rate
 
+
+
+# Year 2 Workload Summary
+- `school` is anything academic-related that is not a supervision (watching/going for lectures, doing supervision work, general studying/revision)
+- `supos` is time spent in supervision (each supo is 1h long)
+- `work` is non-academic CS-related work (personal projects / etc.)
+
+
+![Workload table](assets/workload.PNG)
+![Workload graph](assets/workload_graph.PNG)
