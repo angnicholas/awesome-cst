@@ -109,6 +109,9 @@ Supplementary
 - [Digital Signals Theory Book](https://brianmcfee.net/dstbook-site/content/intro.html) - explains all the main concepts
 - [DSP Guide](https://www.dspguide.com/) - explains other things not covered byt he previous book
 
+### Cryptography
+- [The Joy of Cryptography Book](https://joyofcryptography.com/)
+
 
 ## Tooling
 - [Pomodoro Tracker](https://pomodoro-tracker.com/) - work timer
