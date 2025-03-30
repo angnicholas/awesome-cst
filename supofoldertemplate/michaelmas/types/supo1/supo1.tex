@@ -1,0 +1,79 @@
+\newif\ifdraft
+
+\draftfalse
+
+\ifdraft
+	\documentclass[10pt, a4paper]{article}
+	\addtolength{\oddsidemargin}{-.875in}
+	\addtolength{\evensidemargin}{-.875in}
+	\addtolength{\textwidth}{1.75in}
+	\addtolength{\topmargin}{-.875in}
+	\addtolength{\textheight}{1.75in}
+\else
+	\input{./infofile.tex}
+	\documentclass[10pt,\jkfside,a4paper]{article}
+	\input{../template/template.tex}
+\fi
+
+\newcommand\ddfrac[2]{\frac{\displaystyle #1}{\displaystyle #2}}
+\newcommand\tx\textrm
+
+\begin{document}
+
+\begin{enumerate}
+
+\item 
+\begin{enumerate}
+
+\item 
+Lec. 3 Ex. 1,2
+\begin{enumerate}
+	\item Define $e \in \text{Halt}_{X \times Y}$ if $e$ halts and 
+	$(fst(e) \in \text{Halt}_X ) \wedge (snd(e) \in \text{Halt}_Y )$
+	
+	
+	\item Define $e \in \text{Halt}_{X+Y}$ if $e$ halts and  
+	$((\forall e''' \in \text{Halt}_X . [e'''/x]e' \in \text{Halt}_Z ) \wedge (\forall e''' \in \text{Halt}_Y . [e'''/y]e'' \in \text{Halt}_Z )) \rightarrow 
+	\verb|case(e, Lx -> e', Ry -> e'')| \in \text{Halt}_Z $ \\
+	
+\end{enumerate}
+
+
+\item 
+Lec 5. Ex
+\begin{enumerate}
+	\item Regularity Lemma \\
+	\includegraphics[width=\textwidth]{regularity1.jpg} \\
+	\includegraphics[width=\textwidth]{regularity2.jpg}
+	\item Church encoding for unit type: The identity function's type $\forall \alpha. (\alpha \to \alpha)$
+	
+	\item Church encoding for empty type: $\forall \alpha. \alpha$
+	
+	\item Church encoding for binary trees: $\forall \alpha.\, \alpha \to (X \to \alpha \to \alpha \to \alpha) \to \alpha$
+	
+	
+\end{enumerate}
+
+
+\end{enumerate}
+
+
+\item PYP 2019.9.14
+
+\begin{enumerate}[]
+	\item
+	 \[
+	 \begin{aligned}
+	 	\text{Boolean: } & \forall \alpha. \, \alpha \to \alpha \to \alpha \\
+	 	\text{True: } &\Lambda \alpha. \, \lambda x : \alpha. \, \lambda y : \alpha. \, x \\
+	 	\text{False: } &\Lambda \alpha. \, \lambda x : \alpha. \, \lambda y : \alpha. \, y
+	 \end{aligned}
+	 \]
+	 
+	 
+
+\end{enumerate}
+\end{enumerate}
+
+\end{document}
+
