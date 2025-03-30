@@ -112,6 +112,9 @@ Supplementary
 ### Cryptography
 - [The Joy of Cryptography Book](https://joyofcryptography.com/)
 
+### Quantum Computing
+- [Quantum Fourier Transform](https://www.youtube.com/watch?v=svSxHaDYHC0)
+
 
 ## Tooling
 - [Pomodoro Tracker](https://pomodoro-tracker.com/) - work timer
