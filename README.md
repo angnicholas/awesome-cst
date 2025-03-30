@@ -120,4 +120,5 @@ Supplementary
 ## Tooling
 - [Pomodoro Tracker](https://pomodoro-tracker.com/) - work timer
 - [Anki](https://apps.ankiweb.net/) - flashcards
+- [Shoujo Shuumatsu Ryokou OST](https://www.youtube.com/watch?v=wzuQdR8yH3s)
 - a customised `.bashrc`
