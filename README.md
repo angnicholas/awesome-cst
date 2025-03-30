@@ -113,7 +113,8 @@ Supplementary
 - [The Joy of Cryptography Book](https://joyofcryptography.com/)
 
 ### Quantum Computing
-- [Quantum Fourier Transform](https://www.youtube.com/watch?v=svSxHaDYHC0)
+- [Quantum Star]([https://www.youtube.com/watch?v=svSxHaDYHC0](https://www.youtube.com/@quantum-soar/videos))
+  - Quantum Fourier Transform, Phase Estimation, Shor's Algorithm   
 
 
 ## Tooling
