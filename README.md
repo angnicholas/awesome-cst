@@ -121,4 +121,5 @@ Supplementary
 - [Pomodoro Tracker](https://pomodoro-tracker.com/) - work timer
 - [Anki](https://apps.ankiweb.net/) - flashcards
 - [Shoujo Shuumatsu Ryokou OST](https://www.youtube.com/watch?v=wzuQdR8yH3s)
+- [Clannad OST](https://www.youtube.com/watch?v=nOU3S4aZH0c&t=13s)
 - a customised `.bashrc`
